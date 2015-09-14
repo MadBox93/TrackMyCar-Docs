@@ -430,7 +430,7 @@ Attraverso la scelta di questa funzione, l'amministratore può decidere di opera
 
 \begin{frame}
 \begin{center}
-\includegraphics[scale=0.45]{../UseCase/Utenti.png}
+\includegraphics[scale=0.2]{../UseCase/Utenti.png}
 \end{center}
 \end{frame}
 
@@ -442,7 +442,7 @@ La selezione di questa funzione permette all'utente di aggiungere o modificare/e
 \begin{frame}
 
 \begin{center}
-\includegraphics[scale=0.4]{../UseCase/Veicoli.png}
+\includegraphics[scale=0.2]{../UseCase/Veicoli.png}
 \end{center}
 \end{frame}
 
@@ -453,7 +453,7 @@ La pagina che viene mostrata selezionando la suddetta funzione permette di assoc
 
 \begin{frame}
 \begin{center}
-\includegraphics[scale=0.45]{../UseCase/Associa.png}
+\includegraphics[scale=0.2]{../UseCase/Associa.png}
 \end{center}
 \end{frame}
 
@@ -467,7 +467,7 @@ Scegliendo ``Imposta limite'' dalla pagina del profilo di amministratore, si vie
 \begin{frame}
 
 \begin{center}
-\includegraphics[scale=0.4]{../UseCase/Limite.png}
+\includegraphics[scale=0.2]{../UseCase/Limite.png}
 \end{center}
 \end{frame}
 
@@ -476,21 +476,18 @@ Scegliendo ``Imposta limite'' dalla pagina del profilo di amministratore, si vie
 
 \section{WBS}
 \begin{frame}
-\end{frame}
-
-\begin{frame}
+\frametitle{WBS}
+\includegraphics[scale=.5]{wbs.png}
 \end{frame}
 
 \pagebreak
 
 \section{OBS}
 \begin{frame}
-
+\frametitle{WBS}
+\includegraphics[scale=.5]{obs.png}
 \end{frame}
 
-\begin{frame}
-
-\end{frame}
 
 \pagebreak
 
@@ -549,9 +546,7 @@ Nel progetto verranno affrontate le seguenti attività:
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{c | c}
-%\rowcolor{Ash}
 \hline
-%Lettera & Ruolo \\ \hline
 R & Responsible \\
 A & Accountable \\
 C & Consulted \\
@@ -601,7 +596,7 @@ Fine & 						    &  &  &  \\\hline
 \frametitle{CPM}
 \begin{figure}[htbp]
 \centering
-\includegraphics[trim={1cm 4.5cm 3.5cm 2.5cm}, clip, scale=0.6]{../ProjectPlan/CPM.png}
+\includegraphics[trim={1cm 4.5cm 3.5cm 2.5cm}, clip, scale=0.3]{../ProjectPlan/CPM.png}
 \end{figure}
 \end{frame}
 
@@ -623,11 +618,12 @@ Il completamento delle attività sovrastanti produrrà i seguenti deliverables:
 \frametitle{Cronoprogramma}
 \begin{figure}[htbp]
 \centering
-\includegraphics[trim={0 0.66cm 0 0}, clip, scale=0.5]{../ProjectPlan/gantt.png}
+\includegraphics[trim={0 0.66cm 0 0}, clip, scale=0.4]{../ProjectPlan/gantt.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
+\frametitle{Calendario di Progetto}
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{l | l | l}
@@ -651,152 +647,83 @@ Data Inizio        & Data Fine	      &  	Oggetto	     \\ \hline
 
 \section{Infrastruttura di Progetto}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-Il processo di sviluppo che abbiamo scelto fa uso del modello a cascata, in quanto tutta la documentazione è stata scritta prima di mettere mano al codice. Tale scelta è stata effettuata perchè:\\
--I requisiti sono conosciuti integralmente fin dall’inizio;\\
--I requisiti non cambiano (se non raramente);\\
--La progettazione può essere effettuata in maniera astratta;\\
--Si crede che alla fine le componenti si integrino correttamente tutte alla fine del processo.\\
+\frametitle{Infrastruttura di Progetto}
+\begin{itemize}
+	\item Workspace Sorgenti Webapp
+	\begin{itemize}
+		\item Package su Macchina di Sviluppo (directory locale)
+		\item Repository GitHub
+	\end{itemize}
+	\item Workspace Documentazione
+	\begin{itemize}
+		\item Package su Macchina di Sviluppo (directory locale)
+		\item Sincronizzazione online tramite file hosting service (Copy)
+		\item Repository GitHub
+	\end{itemize}
+	\item Canale di Comunicazione Interno al Team (Slack)
+	\item Ambienti di Rilascio
+	\begin{itemize}
+		\item Test su PC di sviluppo (Linux Mint, basato su Ubuntu)
+		\item Collaudo su PC dell'università (Ubuntu 14.04 LTS)
+		\item Rilascio su Macchina del Cliente (dotata di Tomcat e Browser Web)
+	\end{itemize}
+\end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
-\end{frame}
+
 
 \pagebreak
 
 \section{Documento di Risk List}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-Il processo di sviluppo che abbiamo scelto fa uso del modello a cascata, in quanto tutta la documentazione è stata scritta prima di mettere mano al codice. Tale scelta è stata effettuata perchè:\\
--I requisiti sono conosciuti integralmente fin dall’inizio;\\
--I requisiti non cambiano (se non raramente);\\
--La progettazione può essere effettuata in maniera astratta;\\
--Si crede che alla fine le componenti si integrino correttamente tutte alla fine del processo.\\
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+\frametitle{Lista dei Maggiori Rischi}
+\footnotesize{
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ p{4cm} p{2cm} p{3cm} } 
+\rowcolor{Ash}	
+\hline	
+Rischio & Gravità & Descrizione  \\ \hline
+Consegna progetto oltre il 14 Settembre & Molto Dannoso & Rilascio software oltre la data di scadenza. \\ 
+Integrazione Componenti & Molto Dannoso & Fallimento nell'integrazione delle componenti e non raggiungimento degli obbiettivi  \\ 
+Mancanza di personale & Dannoso & Assenza di personale per svolgere compiti \\ 
+Conoscenza Tecnologie & Medio & Conoscere il funzionamento interno delle tecnologie utilizzate \\ 
+Implementazione Multilinguismo & Bassa & Fornire un'interfaccia utente multilingua  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}}
 \end{frame}
 
 \pagebreak
 
 \section{Design}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
+\frametitle{Politiche di Riuso}
 il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
 \end{frame}
 
 \pagebreak
 
 \section{Diagramma dei Casi d'Uso}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+\frametitle{Flusso di Utilizzo}
+Vedi Slide Precedenti.
 \end{frame}
 
 \pagebreak
 
 \section{Diagramma dei Package}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+\frametitle{Diagramma dei Package}
+\includegraphics[scale=.4]{packageDiagram.png}
 \end{frame}
 
 \pagebreak
 
 \section{Diagramma delle Classi}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+\frametitle{Diagramma delle Classi}
+\includegraphics[scale=.3]{classDiagram.png}
 \end{frame}
 
 \pagebreak
@@ -821,74 +748,54 @@ Convalida\\
 \section{Design Pattern}
 \begin{frame}
 \frametitle{Ciclo di vita e processo di sviluppo}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+Essendo il progetto piccolo, non si è reso necessario l'utilizzo di particolari design pattern. Questo però non ha impedito al gruppo di immaginare scenari in cui includere alcuni di essi. 
 \end{frame}
 
 \pagebreak
 
 \section{Principi SOLID}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
-
-\begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+\frametitle{Principi SOLID Utilizzati}
+\begin{itemize}
+\item Single Responsibility Principle
+\item Open/Closed Principle
+\item Interface Segregation Principle
+\end{itemize}
 \end{frame}
 
 \pagebreak
 
 \section{Documento di TestPlan : cosa e quando è stato testato?}
 \begin{frame}
-\frametitle{Ciclo di vita e processo di sviluppo}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
+\frametitle{Documento TestPlan: quando?}
+\includegraphics[trim={0 0.5cm 0 0}, clip, scale=0.5]{../TestPlan/test.png}
 \end{frame}
 
 \begin{frame}
-\frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+\frametitle{Documento TestPlan: cosa?}
+\small{
+Divideremo i test in due grandi famiglie
+\begin{itemize}	
+\item White Box (test Strutturali):
+\begin{itemize}	
+\footnotesize{
+\item Unit Test: Test sul corretto funzionamento delle classi responsabili del controllo della velocità  rispetto al limite impostato ed eventuale soglia di superamento di quest'ultimo.
+\item Integration Test: Si è testata l'integrazione tra i vari componenti del sistema TMC: il simulatore SW (Modulo HW), la web application (pagine jsp), le Servlet e il DB.
+\item System Test: I test in questa sezione ci hanno permesso di controllare alcune proprietà  del nostro sistema.}
+\begin{itemize}	
+\scriptsize{
+\item Robustness Test:
+Verifica dei campi in caso di anomalie (es. mail mancante o campi errati) ed eventuali risposte d'errore.
+\item Security Test: Controllo sessione, Controllo permessi e autorizzazioni pagine.}
+\end{itemize}
+\end{itemize}
+\item Black Box (test Funzionali).
+\begin{itemize}	
+\item Funzioni Amministratore;
+\item Funzioni Utente.
+\item Funzioni comuni.
+\end{itemize}
+\end{itemize}}
 \end{frame}
 
 \end{document}
-
-\begin{frame}
-\end{frame}

@@ -6,18 +6,18 @@
 \beamer@sectionintoc {3}{Documento di Caratteristiche}{15}{0}{3}
 \beamer@sectionintoc {4}{Documento di Specifiche dei Casi D'Uso}{24}{0}{4}
 \beamer@sectionintoc {5}{WBS}{42}{0}{5}
-\beamer@sectionintoc {6}{OBS}{45}{0}{6}
-\beamer@sectionintoc {7}{Documento di Project Plan}{48}{0}{7}
-\beamer@sectionintoc {8}{RAM / RACI}{50}{0}{8}
-\beamer@sectionintoc {9}{Reticolo di Progetto / CPM}{53}{0}{9}
-\beamer@sectionintoc {10}{Cronoprogramma}{56}{0}{10}
-\beamer@sectionintoc {11}{Infrastruttura di Progetto}{59}{0}{11}
-\beamer@sectionintoc {12}{Documento di Risk List}{62}{0}{12}
-\beamer@sectionintoc {13}{Design}{65}{0}{13}
-\beamer@sectionintoc {14}{Diagramma dei Casi d'Uso}{68}{0}{14}
-\beamer@sectionintoc {15}{Diagramma dei Package}{71}{0}{15}
-\beamer@sectionintoc {16}{Diagramma delle Classi}{74}{0}{16}
-\beamer@sectionintoc {17}{Diagramma delle Sequenze}{77}{0}{17}
-\beamer@sectionintoc {18}{Design Pattern}{81}{0}{18}
-\beamer@sectionintoc {19}{Principi SOLID}{84}{0}{19}
-\beamer@sectionintoc {20}{Documento di TestPlan : cosa e quando \IeC {\`e} stato testato?}{87}{0}{20}
+\beamer@sectionintoc {6}{OBS}{44}{0}{6}
+\beamer@sectionintoc {7}{Documento di Project Plan}{46}{0}{7}
+\beamer@sectionintoc {8}{RAM / RACI}{48}{0}{8}
+\beamer@sectionintoc {9}{Reticolo di Progetto / CPM}{51}{0}{9}
+\beamer@sectionintoc {10}{Cronoprogramma}{54}{0}{10}
+\beamer@sectionintoc {11}{Infrastruttura di Progetto}{57}{0}{11}
+\beamer@sectionintoc {12}{Documento di Risk List}{59}{0}{12}
+\beamer@sectionintoc {13}{Design}{61}{0}{13}
+\beamer@sectionintoc {14}{Diagramma dei Casi d'Uso}{63}{0}{14}
+\beamer@sectionintoc {15}{Diagramma dei Package}{65}{0}{15}
+\beamer@sectionintoc {16}{Diagramma delle Classi}{67}{0}{16}
+\beamer@sectionintoc {17}{Diagramma delle Sequenze}{69}{0}{17}
+\beamer@sectionintoc {18}{Design Pattern}{73}{0}{18}
+\beamer@sectionintoc {19}{Principi SOLID}{75}{0}{19}
+\beamer@sectionintoc {20}{Documento di TestPlan : cosa e quando \IeC {\`e} stato testato?}{77}{0}{20}

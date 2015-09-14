@@ -1,0 +1,165 @@
+% !TEX encoding = UTF-8
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{color, colortbl}
+\usepackage{graphicx}
+\definecolor{Ash}{rgb}{0.7,0.75,0.71}
+\definecolor{Ash}{rgb}{0.7,0.75,0.71}
+\definecolor{Ash}{rgb}{0.7,0.75,0.71}
+\definecolor{Ash}{rgb}{0.7,0.75,0.71}
+\usepackage{multirow}
+
+
+
+\begin{document}
+
+\title{\textbf{TrackMyCar - Live Positioning System} \\ Risk List}
+
+\author{Kevin Mansoldo, Matteo Dal Monte, Luca Vicentini}
+\date{}
+\maketitle
+\pagebreak
+
+\tableofcontents
+\pagebreak
+
+\section{Lista Destinatari del Documento}
+
+\begin{table*}[ht]
+\begin{center}
+\begin{tabular}{p{1cm} p{4.5cm} p{5cm} p{2cm}}
+\rowcolor{Ash}
+\hline
+Copia & Persona & Organizzazione & Data \\ \hline
+1 & Kevin Mansoldo & Azienda & Data \\ 
+2 & Matteo Dal Monte & Azienda & Data \\ 
+3 & Luca Vicentini & Azienda & Data \\ 
+4 & Claudio Tomazzoli & Cliente & Data \\ \hline
+\end{tabular}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{p{6cm} p{5cm} p{2cm}}
+\rowcolor{Ash}
+\hline
+Azione & Persona & Data \\ \hline
+Documento redatto da & Kevin Mansoldo & Data \\ 
+Documento approvato da & Matteo Dal Monte & Data \\ 
+Documento approvato da & Luca Vicentini & Data \\ \hline
+\end{tabular}
+\end{center}
+\end{table*}
+
+\subsection{Versione Documento}
+\begin{table*}[ht]
+\begin{center}
+\begin{tabular}{p{1cm} p{4.5cm} p{5cm} p{2cm}}
+\rowcolor{Ash}
+\hline
+Versione & Autore & Note & Data \\ \hline
+1.0 & Kevin Mansoldo & Stesura Iniziale & Data \\ 
+1.1 & Kevin Mansoldo & Revisione su osservazioni del gruppo & Data \\ 
+1.2 & Kevin Mansoldo & Revisione Finale & Data \\ \hline
+\end{tabular}
+\end{center}
+\end{table*}
+
+\subsection{Supporto Documento}
+\begin{table*}[ht]
+\begin{center}
+\begin{tabular}{p{6cm} p{5cm} p{2cm}}
+\rowcolor{Ash}
+\hline
+Nome File & Tipo & Estensione \\ \hline
+RiskList & Portable Document Format & .pdf \\ \hline
+\end{tabular}
+\end{center}
+\end{table*}
+
+\clearpage
+
+\pagebreak
+
+\section{Introduzione e Obiettivi}
+
+Lo scopo del sistema che si vuole implementare è quello di poter tracciare in tempo reale il o i veicoli collegati in caso di furto o smarrimento. Tramite un'interfaccia visuale è possibile tenere sotto controllo la posizione, la velocità e lo storico dei percorsi effettuati. Inoltre viene fornita la possibilità di sfruttare l'integrazione con sistemi di videosorveglianza interni al veicolo, identificando così eventuali malintenzionati. 
+
+L'applicazione, dotata di una intuitiva interfaccia grafica, permette quindi la rapida fruizione dei contenuti tramite semplici menu contestuali.
+
+
+\section{Definizioni, Acronimi e Abbreviazioni}
+
+Per le definizioni di alcuni termini fondamentali, fare riferimento al glossario ``Glossario.pdf'' all'interno della documentazione di progetto.
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ p{4.5cm} p{4.5cm} p{3.5cm} } 
+\rowcolor{Ash}	
+\hline	
+Nome File & Tipo File & Estensione  \\ \hline
+Development Case & Linee guida di sviluppo del progetto & DevCase.pdf  \\ 
+Glossario & Descrizione di termini specifici & Glossario.pdf  \\ 
+Vision & Requisiti di sistema, Business Needs e Motivazioni & Vision.pdf  \\ 
+Caratteristiche & Requisiti funzionali, non funzionali ed architetturali & Caratteristiche.pdf  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\pagebreak
+
+\section{Lista dei Maggiori Rischi}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ p{4.5cm} p{3cm} p{5cm} } 
+\rowcolor{Ash}	
+\hline	
+Rischio & Gravità & Descrizione  \\ \hline
+Consegna progetto oltre il 14 Settembre & Molto Dannoso & Rilascio software oltre la data di scadenza. \\ 
+Integrazione Componenti & Molto Dannoso & Fallimento nell'integrazione delle componenti e non raggiungimento degli obbiettivi  \\ 
+Mancanza di personale & Dannoso & Assenza di personale per svolgere compiti \\ 
+Conoscenza Tecnologie & Medio & Conoscere il funzionamento interno delle tecnologie utilizzate \\ 
+Implementazione Multilinguismo & Bassa & Fornire un'interfaccia utente multilingua  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{Gestione del Rischio}
+\subsection{Consegna progetto oltre il 14 Settembre}
+\textbf{Gravità:} Molto dannosa.\\
+\textbf{Descrizione:} La consegna del sistema oltre al data considerata utile viene considerato dal management talmente grave da considerare di cancellare il progetto se accadesse.\\
+\textbf{Impatto:} Cancellazione progetto.\\
+\textbf{Mitigazione:} La pianificazione del progetto deve essere particolarmente accuata. Nel caso ci si accorga di essere in ritardo, verranno semplificate alcune funzioni ovvero ne verranno rilasciate un numero minore. Un comitato operativo si riunirà un mese prima della scadenza per decidere cosa semplificare o eliminare in tale occorrenza.\\
+\textbf{Contingency Plan:} Nessuno.
+
+\subsection{Integrazione Componenti}
+\textbf{Gravità:} Molto Dannosa.\\
+\textbf{Descrizione:} L'integrazione delle componenti è fondamentale per la buona riuscita del progetto. Nel caso questa non possa essere garantita, l'intera riuscita del progetto potrebbe essere messa in discussione.\\
+\textbf{Impatto:} Impossibilità di realizzazione o cancellazione del progetto.\\
+\textbf{Mitigazione:} Test preliminari sulle componenti.\\
+\textbf{Contingency Plan:} Nessuno.
+
+\subsection{Mancanza di Personale}
+\textbf{Gravità:} Dannosa.\\
+\textbf{Descrizione:} La dimensione ristretta del gruppo potrebbe portare a sottovalutare l'implementazione di alcune funzioni cardine del progetto, portando ad un inevitabile ritardo nel completamento degli obbiettivi.\\
+\textbf{Impatto:} Ritardo in fase di realizzazione.\\
+\textbf{Mitigazione:} La pianificazione del progetto deve essere particolarmente accurata. Nel caso ci si accorga di essere in carenza di personale in aree nevralgiche del progetto, sarà possibile riassegnare il personale secondo le possibilità e le necessità. Un comitato operativo si riunirà periodicamente per decidere cosa un eventuale piano di azione.\\
+\textbf{Contingency Plan:} Nessuno.
+
+\subsection{Conoscenza Tecnologie}
+\textbf{Gravità:} Media.\\
+\textbf{Descrizione:} Conoscenza superficiale delle tecnologie da impiegare all'interno del progetto.\\
+\textbf{Impatto:} Possibili rallentamenti dovuti a incomprensioni ed errori.\\
+\textbf{Mitigazione:} Le tecnologie necessarie verranno ampiamente discusse ed analizzate in fase preliminare, in modo da permettere pianificazioni accurate e chiarimenti tempestivi.\\
+\textbf{Contingency Plan:} Nessuno.
+
+\subsection{Implementazione Multilinguismo}
+\textbf{Gravità:} Bassa.\\
+\textbf{Descrizione:} Mancata traduzione dell'interfaccia utente nelle principali lingue straniere.\\
+\textbf{Impatto:} Perdita di tempo in task secondari.\\
+\textbf{Mitigazione:} La traduzione dell'interfaccia potrà essere aggiunta tramite update incrementale anche dopo la data di scadenza, senza inficiare l'utlizzo globale del prodotto.\\
+\textbf{Contingency Plan:} Nessuno.
+
+\end{document}

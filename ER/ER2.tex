@@ -1,0 +1,89 @@
+% !TEX encoding = UTF-8
+
+\documentclass[a4paallarme,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{graphicx}
+\usepackage{../tikz-er2}
+\usepackage[top = 2.75cm, bottom = 0.50cm, left   = 0.5cm, right  = 0.50cm]{geometry}
+\begin{document}
+
+\pagenumbering{gobble}
+\clearpage
+\thispagestyle{empty}
+
+\title{Diagramma ER per la Struttura della Base di dati}
+\author{}
+\date{}
+\maketitle
+
+
+%\begin{landscape}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows}
+\tikzstyle{every entity} = [top color=white, bottom color=blue!20, draw=blue!50!black!100, drop shadow]
+\tikzstyle{every attribute} = [ draw=blue!0, node distance=1cm]
+\tikzstyle{every relationship} = [top color=white, bottom color=red!20, draw=red!50!black!100, drop shadow]
+
+\begin{tikzpicture}[node distance=1.5cm, every edge/.style={link}]
+
+%entità veicolo con attributi
+    \node[entity] (veicolo)[] {Veicolo};
+    \node[attribute] (veicolocom) [above left=of veicolo] {Marca} edge (veicolo);
+    \node[attribute] (veicoloname) [below left=1cm and 2 cm of veicolo] {\key{Targa}} edge (veicolo);
+    \node[attribute] (veicoloind) [below right= 2cm and 0.4 of veicolo] {Modello} edge (veicolo);
+    \node[attribute] (veicoloda) [below left=2cm and 2 cm of veicolo] {Vel} edge (veicolo);
+    \node[attribute] (veicolode) [below left=2cm and 0.4 cm of veicolo] {Lat} edge (veicolo);
+    \node[attribute] (veicoloind) [above right=of veicolo] {Long} edge (veicolo);
+    \node[attribute] (veicoloda) [below right=1cm and 2 cm of veicolo] {Data} edge (veicolo);
+    \node[attribute] (veicolode) [right=2cm and 0.4 cm of veicolo] {Ora} edge (veicolo);    
+    
+    %entità allarme con attributi
+    \node[entity] (allarme) [above = 5cm of veicolo]{Allarme};
+    \node[attribute] (pname) [above=of allarme] {diffVel} edge (allarme);
+    \node[attribute] (pnum) [above left=of allarme] {\key{Id}} edge (allarme);
+    \node[attribute] (pcog) [above right=of allarme] {Velocità} edge (allarme);
+    \node[attribute] (pdn) [ right=of allarme] {Data} edge (allarme);
+    \node[attribute] (ppw) [left=0.5 cm of allarme] {Ora} edge (allarme);
+    
+    %relazione tra allarme e veicolo (lavora)
+    \node[relationship] (limiti) [above =of veicolo] {Limiti} edge (allarme) edge (veicolo);
+    
+    %entità furto
+    \node[entity] (furto)[left= 7cm of veicolo] {Furto};
+    \node[attribute] (fid) [above left=of furto] {\key{Id}} edge (furto);
+    \node[attribute] (fdata) [left=of furto] {Data} edge (furto);
+    \node[attribute] (fora) [below left=of furto] {Ora} edge (furto);
+    
+    %relazione iscritto
+    \node[relationship] (vf) [left = 3cm of veicolo] {V-F} edge (veicolo) edge (furto); 
+    
+    %entità utente 
+    \node[entity] (utente)[below = 7cm of veicolo] {Utente};
+    \node[attribute] (unome) [below=of utente] {Nome} edge (utente);
+    \node[attribute] (uid) [below right=of utente] {\key{Mail}} edge (utente);
+    \node[attribute] (ucog) [above right=of utente] {Cognome} edge (utente);
+    \node[attribute] (utipo) [below left=of utente] {Tipo} edge (utente);
+    \node[attribute] (upw) [left=0.5 cm of utente] {PWD} edge (utente);
+    \node[attribute] (utel) [right=0.5 cm of utente] {Telefono} edge (utente);
+    
+    
+    %relazione gestione
+    \node[relationship] (gestione) [below = 3.5cm of veicolo] {Gestione} edge (veicolo) edge (utente);
+    
+    %entità posizione 
+    \node[entity] (posizione)[below = 7cm of furto] {Posizione};
+    \node[attribute] (pid) [above left=of posizione] {\key{Id}} edge (posizione);
+    \node[attribute] (pora) [above right= of posizione] {Ora} edge (posizione);
+    \node[attribute] (plat) [below left= of posizione] {Lat} edge (posizione);
+    \node[attribute] (plong) [below right= of posizione] {Long} edge (posizione); 
+    \node[attribute] (pvel) [below = of posizione] {Velocità} edge (posizione); 
+        
+    %relazione entra
+    \node[relationship] (localizzazione) [below = 2.5cm of furto] {Localizzazione}  edge (furto) edge (posizione);
+    
+\end{tikzpicture}
+
+
+\end{document}

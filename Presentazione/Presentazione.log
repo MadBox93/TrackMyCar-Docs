@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.30)  14 SEP 2015 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.30)  15 SEP 2015 02:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1509,384 +1509,383 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Presentazione.toc) [2
 
-] [3
-
-] [4
-
-] (./Presentazione.toc) [5
-
-] [6
-
-] [7
-
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 90.
+line 50.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-Underfull \hbox (badness 5091) in paragraph at lines 90--90
+) [3
+
+] (./Presentazione.toc) [4
+
+] [5
+
+] [6
+
+] (./Presentazione.toc) [7
+
+] [8
+
+] [9
+
+]
+Underfull \hbox (badness 5091) in paragraph at lines 125--125
 []|\T1/cmss/m/n/12 Controllare e trac-cia-re la
- []
-
-[8
-
-]
-Underfull \hbox (badness 6927) in paragraph at lines 108--108
-[]|\T1/cmss/m/n/12 Tracciare e con-trol-la-re il
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 108--108
-[]|\T1/cmss/m/n/12 Software per rin-trac-cia-re i
- []
-
-[9
-
-]
-Underfull \hbox (badness 1881) in paragraph at lines 124--124
-[]|\T1/cmss/m/n/12 Controllo e Ge-
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 124--124
-\T1/cmss/m/n/12 to fun-zio-na-men-to del
  []
 
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
-[]|\T1/cmss/m/n/12 Regular
+Underfull \hbox (badness 6927) in paragraph at lines 143--143
+[]|\T1/cmss/m/n/12 Tracciare e con-trol-la-re il
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 143--143
+[]|\T1/cmss/m/n/12 Software per rin-trac-cia-re i
  []
 
 [11
 
-] [12
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-[]|\T1/cmss/m/n/12 Associazione
+Underfull \hbox (badness 1881) in paragraph at lines 159--159
+[]|\T1/cmss/m/n/12 Controllo e Ge-
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 176--176
-[]|\T1/cmss/m/n/12 Aree Ri-ser-va-te di-stin-te per gli
+Underfull \hbox (badness 1748) in paragraph at lines 159--159
+\T1/cmss/m/n/12 to fun-zio-na-men-to del
+ []
+
+[12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\T1/cmss/m/n/12 Regular
  []
 
 [13
 
-] <../Vision/Concetto2.png, id=513, 597.432pt x 845.0772pt>
+] [14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]|\T1/cmss/m/n/12 Associazione
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 211--211
+[]|\T1/cmss/m/n/12 Aree Ri-ser-va-te di-stin-te per gli
+ []
+
+[15
+
+] <../Vision/Concetto2.png, id=583, 597.432pt x 845.0772pt>
 File: ../Vision/Concetto2.png Graphic file (type png)
 
 <use ../Vision/Concetto2.png>
-Package pdftex.def Info: ../Vision/Concetto2.png used on input line 181.
+Package pdftex.def Info: ../Vision/Concetto2.png used on input line 216.
 (pdftex.def)             Requested size: 298.71527pt x 251.82147pt.
 
-Overfull \vbox (9.87346pt too high) detected at line 181
+Overfull \vbox (9.87346pt too high) detected at line 216
  []
 
-[14
+[16
 
- <../Vision/Concetto2.png>] (./Presentazione.toc) [15
+ <../Vision/Concetto2.png>] (./Presentazione.toc) [17
 
-] [16
+] [18
 
 ]
-<../IMG/ModLogico.png, id=614, 599.23875pt x 595.22375pt>
+<../IMG/ModLogico.png, id=684, 599.23875pt x 595.22375pt>
 File: ../IMG/ModLogico.png Graphic file (type png)
 
 <use ../IMG/ModLogico.png>
-Package pdftex.def Info: ../IMG/ModLogico.png used on input line 204.
+Package pdftex.def Info: ../IMG/ModLogico.png used on input line 239.
 (pdftex.def)             Requested size: 179.77301pt x 178.5685pt.
- [17
+ [19
 
  <../IMG/ModLogico.png>]
-<../IMG/ModFisico.png, id=641, 803.0pt x 803.0pt>
+<../IMG/ModFisico.png, id=711, 803.0pt x 803.0pt>
 File: ../IMG/ModFisico.png Graphic file (type png)
  <use ../IMG/ModFisico.png>
-Package pdftex.def Info: ../IMG/ModFisico.png used on input line 209.
+Package pdftex.def Info: ../IMG/ModFisico.png used on input line 244.
 (pdftex.def)             Requested size: 240.90186pt x 240.90186pt.
-
-[18
-
- <../IMG/ModFisico.png>] [19
-
-]
-Overfull \hbox (8.56886pt too wide) in paragraph at lines 268--268
- [] 
- []
-
-
-Overfull \vbox (4.22229pt too high) detected at line 268
- []
 
 [20
 
-] [21
+ <../IMG/ModFisico.png>] [21
 
-] [22
+]
+Overfull \hbox (8.56886pt too wide) in paragraph at lines 301--301
+ [] 
+ []
+
+[22
 
 ] [23
 
-] (./Presentazione.toc) [24
+] [24
 
 ] [25
 
+] (./Presentazione.toc) [26
+
+] [27
+
 ]
-<../UseCase/Login.png, id=867, 441.65pt x 244.915pt>
+<../UseCase/Login.png, id=937, 441.65pt x 244.915pt>
 File: ../UseCase/Login.png Graphic file (type png)
 
 <use ../UseCase/Login.png>
-Package pdftex.def Info: ../UseCase/Login.png used on input line 336.
+Package pdftex.def Info: ../UseCase/Login.png used on input line 369.
 (pdftex.def)             Requested size: 220.82445pt x 122.45718pt.
- [26
+ [28
 
  <../UseCase/Login.png>]
-<../UseCase/Logout.png, id=894, 569.12625pt x 90.3375pt>
+<../UseCase/Logout.png, id=964, 569.12625pt x 90.3375pt>
 File: ../UseCase/Logout.png Graphic file (type png)
 
 <use ../UseCase/Logout.png>
-Package pdftex.def Info: ../UseCase/Logout.png used on input line 344.
+Package pdftex.def Info: ../UseCase/Logout.png used on input line 377.
 (pdftex.def)             Requested size: 284.56242pt x 45.16862pt.
- [27
+ [29
 
- <../UseCase/Logout.png>] [28
+ <../UseCase/Logout.png>] [30
 
 ]
-<../UseCase/Posizione.png, id=947, 591.20876pt x 95.35625pt>
+<../UseCase/Posizione.png, id=1016, 591.20876pt x 95.35625pt>
 File: ../UseCase/Posizione.png Graphic file (type png)
 
 <use ../UseCase/Posizione.png>
-Package pdftex.def Info: ../UseCase/Posizione.png used on input line 374.
+Package pdftex.def Info: ../UseCase/Posizione.png used on input line 407.
 (pdftex.def)             Requested size: 177.36398pt x 28.60709pt.
- [29
+ [31
 
  <../UseCase/Posizione.png>]
-<../UseCase/Allarmi.png, id=974, 568.1225pt x 296.10625pt>
+<../UseCase/Allarmi.png, id=1045, 568.1225pt x 296.10625pt>
 File: ../UseCase/Allarmi.png Graphic file (type png)
 
 <use ../UseCase/Allarmi.png>
-Package pdftex.def Info: ../UseCase/Allarmi.png used on input line 383.
+Package pdftex.def Info: ../UseCase/Allarmi.png used on input line 416.
 (pdftex.def)             Requested size: 170.43805pt x 88.83255pt.
- [30
+ [32
 
  <../UseCase/Allarmi.png>]
-<../UseCase/Storico.png, id=1001, 508.90125pt x 456.70625pt>
+<../UseCase/Storico.png, id=1072, 508.90125pt x 456.70625pt>
 File: ../UseCase/Storico.png Graphic file (type png)
 
 <use ../UseCase/Storico.png>
-Package pdftex.def Info: ../UseCase/Storico.png used on input line 392.
+Package pdftex.def Info: ../UseCase/Storico.png used on input line 425.
 (pdftex.def)             Requested size: 152.67155pt x 137.01292pt.
- [31
+ [33
 
  <../UseCase/Storico.png>]
-<../UseCase/Tracking.png, id=1029, 580.1675pt x 312.16624pt>
+<../UseCase/Tracking.png, id=1099, 580.1675pt x 312.16624pt>
 File: ../UseCase/Tracking.png Graphic file (type png)
 
 <use ../UseCase/Tracking.png>
-Package pdftex.def Info: ../UseCase/Tracking.png used on input line 401.
+Package pdftex.def Info: ../UseCase/Tracking.png used on input line 434.
 (pdftex.def)             Requested size: 174.05157pt x 93.65059pt.
- [32
+ [34
 
  <../UseCase/Tracking.png>]
-Overfull \hbox (8.56886pt too wide) in paragraph at lines 424--424
+Overfull \hbox (8.56886pt too wide) in paragraph at lines 457--457
  [] 
  []
 
-[33
+[35
 
-] [34
+] [36
 
-] <../UseCase/Utenti.png, id=1107, 812.03375pt x 975.645pt>
+] <../UseCase/Utenti.png, id=1177, 812.03375pt x 975.645pt>
 File: ../UseCase/Utenti.png Graphic file (type png)
 
 <use ../UseCase/Utenti.png>
-Package pdftex.def Info: ../UseCase/Utenti.png used on input line 435.
-(pdftex.def)             Requested size: 162.40387pt x 195.12553pt.
- [35
-
- <../UseCase/Utenti.png>] [36
-
-]
-<../UseCase/Veicoli.png, id=1159, 812.03375pt x 975.645pt>
-File: ../UseCase/Veicoli.png Graphic file (type png)
-
-<use ../UseCase/Veicoli.png>
-Package pdftex.def Info: ../UseCase/Veicoli.png used on input line 447.
+Package pdftex.def Info: ../UseCase/Utenti.png used on input line 468.
 (pdftex.def)             Requested size: 162.40387pt x 195.12553pt.
  [37
 
- <../UseCase/Veicoli.png>] [38
+ <../UseCase/Utenti.png>] [38
 
 ]
-<../UseCase/Associa.png, id=1213, 812.03375pt x 975.645pt>
-File: ../UseCase/Associa.png Graphic file (type png)
+<../UseCase/Veicoli.png, id=1230, 812.03375pt x 975.645pt>
+File: ../UseCase/Veicoli.png Graphic file (type png)
 
-<use ../UseCase/Associa.png>
-Package pdftex.def Info: ../UseCase/Associa.png used on input line 458.
+<use ../UseCase/Veicoli.png>
+Package pdftex.def Info: ../UseCase/Veicoli.png used on input line 480.
 (pdftex.def)             Requested size: 162.40387pt x 195.12553pt.
  [39
 
- <../UseCase/Associa.png>] [40
+ <../UseCase/Veicoli.png>] [40
 
 ]
-<../UseCase/Limite.png, id=1264, 631.35875pt x 975.645pt>
+<../UseCase/Associa.png, id=1283, 812.03375pt x 975.645pt>
+File: ../UseCase/Associa.png Graphic file (type png)
+
+<use ../UseCase/Associa.png>
+Package pdftex.def Info: ../UseCase/Associa.png used on input line 491.
+(pdftex.def)             Requested size: 162.40387pt x 195.12553pt.
+ [41
+
+ <../UseCase/Associa.png>] [42
+
+]
+<../UseCase/Limite.png, id=1334, 631.35875pt x 975.645pt>
 File: ../UseCase/Limite.png Graphic file (type png)
 
 <use ../UseCase/Limite.png>
-Package pdftex.def Info: ../UseCase/Limite.png used on input line 472.
+Package pdftex.def Info: ../UseCase/Limite.png used on input line 505.
 (pdftex.def)             Requested size: 126.2695pt x 195.12553pt.
- [41
-
- <../UseCase/Limite.png>] (./Presentazione.toc)
-[42
-
-] <wbs.png, id=1336, 611.28375pt x 415.5525pt>
-File: wbs.png Graphic file (type png)
- <use wbs.png>
-Package pdftex.def Info: wbs.png used on input line 481.
-(pdftex.def)             Requested size: 305.64113pt x 207.77574pt.
  [43
 
- <./wbs.png>] (./Presentazione.toc) [44
+ <../UseCase/Limite.png>] (./Presentazione.toc)
+[44
 
-] <obs.png, id=1409, 652.4375pt x 326.21875pt>
+] <wbs.png, id=1407, 611.28375pt x 415.5525pt>
+File: wbs.png Graphic file (type png)
+ <use wbs.png>
+Package pdftex.def Info: wbs.png used on input line 514.
+(pdftex.def)             Requested size: 305.64113pt x 207.77574pt.
+ [45
+
+ <./wbs.png>] (./Presentazione.toc) [46
+
+] <obs.png, id=1479, 652.4375pt x 326.21875pt>
 File: obs.png Graphic file (type png)
 
 <use obs.png>
-Package pdftex.def Info: obs.png used on input line 489.
+Package pdftex.def Info: obs.png used on input line 522.
 (pdftex.def)             Requested size: 326.21794pt x 163.10896pt.
 
-Overfull \hbox (18.92807pt too wide) in paragraph at lines 489--489
+Overfull \hbox (18.92807pt too wide) in paragraph at lines 522--522
 [][]  
  []
 
-[45
+[47
 
- <./obs.png>] (./Presentazione.toc) [46
+ <./obs.png>] (./Presentazione.toc) [48
 
-] [47
+] [49
 
-] (./Presentazione.toc) [48
+] (./Presentazione.toc) [50
 
 ]
-Overfull \hbox (22.80379pt too wide) in paragraph at lines 557--557
+Overfull \hbox (22.80379pt too wide) in paragraph at lines 590--590
  [] 
  []
 
 
-Overfull \vbox (1.3517pt too high) detected at line 557
+Overfull \vbox (1.3517pt too high) detected at line 590
  []
 
-[49
+[51
 
-] [50
+] [52
 
-] (./Presentazione.toc) [51
+] (./Presentazione.toc) [53
 
 ]
-<../ProjectPlan/CPM.png, id=1649, 845.0772pt x 597.432pt>
+<../ProjectPlan/CPM.png, id=1719, 845.0772pt x 597.432pt>
 File: ../ProjectPlan/CPM.png Graphic file (type png)
 
 <use ../ProjectPlan/CPM.png>
-Package pdftex.def Info: ../ProjectPlan/CPM.png used on input line 601.
+Package pdftex.def Info: ../ProjectPlan/CPM.png used on input line 634.
 (pdftex.def)             Requested size: 215.1136pt x 119.47974pt.
- [52
+ [54
 
- <../ProjectPlan/CPM.png>] [53
-
-]
-(./Presentazione.toc) [54
+ <../ProjectPlan/CPM.png>] [55
 
 ]
-<../ProjectPlan/gantt.png, id=1748, 632.3625pt x 510.90875pt>
+(./Presentazione.toc) [56
+
+]
+<../ProjectPlan/gantt.png, id=1819, 632.3625pt x 510.90875pt>
 File: ../ProjectPlan/gantt.png Graphic file (type png)
 
 <use ../ProjectPlan/gantt.png>
-Package pdftex.def Info: ../ProjectPlan/gantt.png used on input line 623.
+Package pdftex.def Info: ../ProjectPlan/gantt.png used on input line 656.
 (pdftex.def)             Requested size: 252.94052pt x 196.84845pt.
- [55
+ [57
 
- <../ProjectPlan/gantt.png>] [56
-
-]
-(./Presentazione.toc) [57
-
-] [58
-
-] (./Presentazione.toc) [59
+ <../ProjectPlan/gantt.png>] [58
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
+(./Presentazione.toc) [59
+
+] [60
+
+] (./Presentazione.toc) [61
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 []|\T1/cmss/m/n/10 Molto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 []|\T1/cmss/m/n/10 Molto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 []|\T1/cmss/m/n/10 Fallimento nel-l'in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 \T1/cmss/m/n/10 te-gra-zio-ne del-le
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 695--695
+Underfull \hbox (badness 2961) in paragraph at lines 728--728
 \T1/cmss/m/n/10 com-po-nen-ti e non
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 \T1/cmss/m/n/10 rag-giun-gi-men-to
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 695--695
+Underfull \hbox (badness 2503) in paragraph at lines 728--728
 []|\T1/cmss/m/n/10 Implementazione Mul-ti-lin-
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 695--695
+Underfull \hbox (badness 3199) in paragraph at lines 728--728
 []|\T1/cmss/m/n/10 Fornire un'in-ter-fac-
  []
 
-[60
-
-] (./Presentazione.toc) [61
-
-] [62
+[62
 
 ] (./Presentazione.toc) [63
 
-] [64
-
 ]
-(./Presentazione.toc) [65
+Overfull \vbox (4.58899pt too high) detected at line 743
+ []
+
+[64
+
+] (./Presentazione.toc) [65
 
 ]
 <packageDiagram.png, id=2127, 707.64375pt x 521.95pt>
 File: packageDiagram.png Graphic file (type png)
  <use packageDiagram.png>
-Package pdftex.def Info: packageDiagram.png used on input line 719.
+Package pdftex.def Info: packageDiagram.png used on input line 751.
 (pdftex.def)             Requested size: 283.05249pt x 208.77629pt.
 
 [66
@@ -1897,10 +1896,10 @@ Package pdftex.def Info: packageDiagram.png used on input line 719.
 <classDiagram.png, id=2199, 1026.83624pt x 622.325pt>
 File: classDiagram.png Graphic file (type png)
  <use classDiagram.png>
-Package pdftex.def Info: classDiagram.png used on input line 727.
+Package pdftex.def Info: classDiagram.png used on input line 759.
 (pdftex.def)             Requested size: 308.05325pt x 186.69893pt.
 
-Overfull \hbox (0.76338pt too wide) in paragraph at lines 727--727
+Overfull \hbox (0.76338pt too wide) in paragraph at lines 759--759
 [][]  
  []
 
@@ -1912,10 +1911,10 @@ Overfull \hbox (0.76338pt too wide) in paragraph at lines 727--727
 <LoginSeq.png, id=2272, 768.8725pt x 562.1pt>
 File: LoginSeq.png Graphic file (type png)
  <use LoginSeq.png>
-Package pdftex.def Info: LoginSeq.png used on input line 735.
+Package pdftex.def Info: LoginSeq.png used on input line 767.
 (pdftex.def)             Requested size: 307.54355pt x 224.83601pt.
 
-Overfull \hbox (0.25368pt too wide) in paragraph at lines 735--735
+Overfull \hbox (0.25368pt too wide) in paragraph at lines 767--767
 [][]  
  []
 
@@ -1925,10 +1924,10 @@ Overfull \hbox (0.25368pt too wide) in paragraph at lines 735--735
 File: AdminSeq.png Graphic file (type png)
 
 <use AdminSeq.png>
-Package pdftex.def Info: AdminSeq.png used on input line 739.
+Package pdftex.def Info: AdminSeq.png used on input line 771.
 (pdftex.def)             Requested size: 314.78242pt x 183.08774pt.
 
-Overfull \hbox (7.49255pt too wide) in paragraph at lines 739--739
+Overfull \hbox (7.49255pt too wide) in paragraph at lines 771--771
 [][]  
  []
 
@@ -1938,31 +1937,40 @@ Overfull \hbox (7.49255pt too wide) in paragraph at lines 739--739
 File: RegularSeq.png Graphic file (type png)
 
 <use RegularSeq.png>
-Package pdftex.def Info: RegularSeq.png used on input line 744.
+Package pdftex.def Info: RegularSeq.png used on input line 776.
 (pdftex.def)             Requested size: 293.7003pt x 226.95023pt.
  [72
 
  <./RegularSeq.png>] (./Presentazione.toc) [73
 
 ]
-[74
+<DesignPattern.png, id=2399, 567.11874pt x 235.88126pt>
+File: DesignPattern.png Graphic file (type png)
 
-] (./Presentazione.toc) [75
+<use DesignPattern.png>
+Package pdftex.def Info: DesignPattern.png used on input line 787.
+(pdftex.def)             Requested size: 283.55867pt x 117.94034pt.
+ [74
 
-] [76
+ <./DesignPattern.png>] [75
 
-] (./Presentazione.toc) [77
+] (./Presentazione.toc)
+[76
+
+] [77
+
+] (./Presentazione.toc) [78
 
 ]
-<../TestPlan/test.png, id=2538, 381.425pt x 415.5525pt>
+<../TestPlan/test.png, id=2565, 381.425pt x 415.5525pt>
 File: ../TestPlan/test.png Graphic file (type png)
 
 <use ../TestPlan/test.png>
-Package pdftex.def Info: ../TestPlan/test.png used on input line 772.
+Package pdftex.def Info: ../TestPlan/test.png used on input line 824.
 (pdftex.def)             Requested size: 190.71202pt x 200.66258pt.
- [78
+ [79
 
- <../TestPlan/test.png>] [79
+ <../TestPlan/test.png>] [80
 
 ]
 \tf@nav=\write7
@@ -1974,26 +1982,26 @@ Package pdftex.def Info: ../TestPlan/test.png used on input line 772.
 \tf@snm=\write9
 \openout9 = `Presentazione.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 801.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 801.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 853.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 853.
 
 (./Presentazione.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 801.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 801.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 853.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 853.
 Package rerunfilecheck Info: File `Presentazione.out' has not changed.
-(rerunfilecheck)             Checksum: D484C125610C76520399A4541D7E5B08;1154.
+(rerunfilecheck)             Checksum: B1645365AEBE182298D3B05076CE98EC;1163.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 801.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 853.
  ) 
 Here is how much of TeX's memory you used:
- 26305 strings out of 493089
- 537534 string characters out of 6134842
- 716012 words of memory out of 5000000
- 28952 multiletter control sequences out of 15000+600000
+ 26290 strings out of 493089
+ 537102 string characters out of 6134842
+ 712278 words of memory out of 5000000
+ 28934 multiletter control sequences out of 15000+600000
  21265 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,86p,922b,1394s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2008,10 +2016,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on Presentazione.pdf (79 pages, 2510423 bytes).
+Output written on Presentazione.pdf (80 pages, 2514228 bytes).
 PDF statistics:
- 2668 PDF objects out of 2984 (max. 8388607)
- 2482 compressed objects within 25 object streams
- 179 named destinations out of 1000 (max. 500000)
- 438 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2698 PDF objects out of 2984 (max. 8388607)
+ 2508 compressed objects within 26 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -29,30 +29,65 @@
   \end{frame}
 }
 
+
+\section{Specifiche di Progetto TrackMyCar}
+\begin{frame}
+\frametitle{Specifiche di Progetto}
+Si intende realizzare un software in grado di monitorare in tempo reale un veicolo (auto/moto) e garantire l’eventuale recupero in caso di furto.
+
+Dovrà permettere di:
+\begin{itemize}
+\item Localizzare i veicoli: auto, moto;
+\item Tracciare il loro percorso in tempo reale;
+\item Mostrare sulla mappa la loro posizione;
+\item Inviare SMS/mail di posizione;
+\item Configurare allarmi di velocità;
+\item Reporting;
+\item Registrare video del probabile ladro, quando questo cerca di rubare il veicolo.
+\end{itemize}
+Si crei un oggetto software di simulazione del veicolo e del dispositivo su esso installato per permettere le simulazioni.\\
+Si prevede sia una app Android e/o una applicazione web.
+\end{frame}
+
+\pagebreak
+
 \section{Ciclo di vita e processo di sviluppo}
 \begin{frame}
 \frametitle{Ciclo di vita e processo di sviluppo}
-Il processo di sviluppo che abbiamo scelto fa uso del modello a cascata, in quanto tutta la documentazione è stata scritta prima di mettere mano al codice. Tale scelta è stata effettuata perchè:\\
--I requisiti sono conosciuti integralmente fin dall’inizio;\\
--I requisiti non cambiano (se non raramente);\\
--La progettazione può essere effettuata in maniera astratta;\\
--Si crede che alla fine le componenti si integrino correttamente tutte alla fine del processo.\\
+Il processo di sviluppo che abbiamo scelto fa uso del modello a cascata, in quanto tutta la documentazione è stata scritta prima di mettere mano al codice. Tale scelta è stata effettuata perchè:
+\begin{itemize}
+\item I requisiti sono conosciuti integralmente fin dall’inizio;
+\item I requisiti non cambiano (se non raramente);
+\item La progettazione può essere effettuata in maniera astratta;
+\item Si crede che alla fine le componenti si integrino correttamente tutte alla fine del processo.
+\end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Fasi di Sviluppo}
-Analisi:\\
-- vengono definiti i requisiti di sistema\\
-- i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.\\
-Progettazione:\\
-- i requisiti di sistema vengono scomposti in requisiti software ed hardware.\\
-- viene definita l’architettura di sistema\\
-Scrittura \\
-- tutte le componenti del sistema vengono realizzate ed assemblate  \\
--vengono effettuati i test unitari sulle componenti.\\
-Convalida\\
-- le componenti vengono integrate e vengono fatti test di integrazione\\
-- il sistema viene rilasciato\\
+Analisi:
+\begin{itemize}
+\item vengono definiti i requisiti di sistema
+\item i risultati devono essere comprensibili sia dal cliente che dagli sviluppatori.
+\end{itemize}
+
+Progettazione:
+\begin{itemize}
+\item i requisiti di sistema vengono scomposti in requisiti software ed hardware.
+\item viene definita l’architettura di sistema
+\end{itemize}
+
+Scrittura 
+\begin{itemize}
+\item tutte le componenti del sistema vengono realizzate ed assemblate  
+\item vengono effettuati i test unitari sulle componenti.
+\end{itemize}
+
+Convalida:
+\begin{itemize}
+\item le componenti vengono integrate e vengono fatti test di integrazione
+\item il sistema viene rilasciato
+\end{itemize}
 \end{frame}
 
 \pagebreak
@@ -240,11 +275,10 @@ Application Server & Tomcat 7 \\ \hline
 \umlusecase[x=2, y=2.6, width=5cm]{Impostazione Allarmi}
 
 
-\umlusecase[x=2, y=1, width=5cm]{Visualizza posizione}
-\umlusecase[x=2, y=0.2, width=5cm]{Controllo Eccesso Velocità}
-\umlusecase[x=2, y=-0.4, width=5cm]{Consultazione Storico Furti}
-\umlusecase[x=2, y=-1.2, width=5cm]{Riproduzione Video}
-\umlusecase[x=2, y=-2, width=5cm]{Visualizzazione Informazioni}
+\umlusecase[x=2, y=1.6, width=5cm]{Visualizza posizione}
+\umlusecase[x=2, y=0.6, width=5cm]{Controllo Eccesso Velocità}
+\umlusecase[x=2, y=-0.2, width=5cm]{Consultazione Storico Furti}
+\umlusecase[x=2, y=-1.2, width=5cm]{Live Tracking}
 
 \umlactor[x=-4, y=3, scale=1]{Amministratore}
 \umlassoc{Amministratore}{usecase-1}
@@ -258,7 +292,6 @@ Application Server & Tomcat 7 \\ \hline
 \umlassoc{Regular}{usecase-6}
 \umlassoc{Regular}{usecase-7}
 \umlassoc{Regular}{usecase-8}
-\umlassoc{Regular}{usecase-9}
 
 \umlinherit{Regular}{Amministratore}
 
@@ -355,10 +388,10 @@ L'utente può effettuare il logout da qualunque pagina, a parte le pagine di err
 \umlusecase[x=2, y=-8, width=5cm]{Live Tracking}
 
 \umlactor[x=-4, y=-5, scale=1]{Regular}
+\umlassoc{Regular}{usecase-11}
 \umlassoc{Regular}{usecase-12}
 \umlassoc{Regular}{usecase-13}
 \umlassoc{Regular}{usecase-14}
-\umlassoc{Regular}{usecase-15}
 \end{tikzpicture}
 \end{center}
 \end{frame}
@@ -413,10 +446,10 @@ Selezionando la voce associata è possibile visualizzare tramite il proprio brow
 
 
 \umlactor[x=-4, y=2, scale=1]{Amministratore}
+\umlassoc{Amministratore}{usecase-15}
 \umlassoc{Amministratore}{usecase-16}
 \umlassoc{Amministratore}{usecase-17}
 \umlassoc{Amministratore}{usecase-18}
-\umlassoc{Amministratore}{usecase-19}
 
 
 \end{tikzpicture}
@@ -484,7 +517,7 @@ Scegliendo ``Imposta limite'' dalla pagina del profilo di amministratore, si vie
 
 \section{OBS}
 \begin{frame}
-\frametitle{WBS}
+\frametitle{OBS}
 \includegraphics[scale=.5]{obs.png}
 \end{frame}
 
@@ -699,15 +732,14 @@ Implementazione Multilinguismo & Bassa & Fornire un'interfaccia utente multiling
 \section{Design}
 \begin{frame}
 \frametitle{Politiche di Riuso}
-il riuso delle classi che abbiamo adattato da basi, tutto può essere tranquillamente riutilizzato e le servlet sono tutte distinte, in modo da modularizzare il codice e permettere le modifiche ad una specifica porzione senza compromettere tutto il resto
-\end{frame}
+\small{
+La politica del riuso che abbiamo adottato riguarda gran parte del progetto. La struttura della webapp è stata adattata da progetti svolti in precedenza dal team, variando il minimo indispensabile per la riuscita dello stesso.
 
-\pagebreak
+L'impiego di Servlet unite alla tecnologia JSP ci ha permesso di rendere altamente modulare il nostro codice, favorendo l'aggiunta di nuove funzionalità in modo semplice e rapido, rispetto all'eventualità di implementare ulteriori classi (tecnica piuttosto dispersiva).
 
-\section{Diagramma dei Casi d'Uso}
-\begin{frame}
-\frametitle{Flusso di Utilizzo}
-Vedi Slide Precedenti.
+Altro elemento fondamentale nel riuso è stato l'impiego di un software COTS, basti pensare al DBMS Postgresql che si interfaccia con la nostra applicazione, fornendo e immagazzinando dati attraverso il driver(intercambiabile con altri DBMS senza inficiare il funzionamento dell'applicazione, es MySQL).
+
+Infine la metodologia di sviluppo di software impiegata può essere accostata facilmente ad una logica di tipo Model-View-Controller, framework molto utile nella progettazione di interfacce grafiche e logiche applicative (Java-JSP).}
 \end{frame}
 
 \pagebreak
@@ -749,6 +781,26 @@ Vedi Slide Precedenti.
 \begin{frame}
 \frametitle{Ciclo di vita e processo di sviluppo}
 Essendo il progetto piccolo, non si è reso necessario l'utilizzo di particolari design pattern. Questo però non ha impedito al gruppo di immaginare scenari in cui includere alcuni di essi. 
+
+Possibile implementazione Abstract Factory
+\includegraphics[scale=.5]{DesignPattern.png}
+\end{frame}
+
+\begin{frame}
+Nel nostro progetto viene spesso 
+Nel nostro progetto viene spesso richiesto di ritornare dei risultati diversi in base all'utente corrente.\\
+Funzioni Regular:\\
+> Posizione Corrente: ritorna posizione dei veicoli associati.\\
+> Live Tracking: ritorna lista furti attivi dei veicoli associati.\\
+> Allarmi Veicolo: ritorna lista veicoli associati.\\
+> Storico Furti: ritorna lista furti dei veicoli associati.\\
+Tutte queste funzioni dell'utente Regular, sono più flessibili in caso l'utente corrente fosse un Amministratore. Infatti in tal caso vengono visualizzate tutti i Veicoli/Furti anche se non direttamente associati a lui.
+L'implementazione lato back-end di questo, con l'utilizzo di una Abstract Factory sarebbe piu agevole:\\
+\small{
+String email = request.getSession().getAttribute("currUserEmail");\\
+Utente u = Utente.getUserData(email);\\
+if( u.instanceOf(Admin) ) return lista A;\\
+else if( u.instanceOf(Reguler) ) return lista B;}
 \end{frame}
 
 \pagebreak

@@ -16,7 +16,7 @@
 \title{\textbf{TrackMyCar - Live Positioning System} \\ Test Plan}
 
 \author{Kevin Mansoldo, Matteo Dal Monte, Luca Vicentini}
-\date{}
+\date{30 Giugno 2015}
 \maketitle
 \pagebreak
 
@@ -27,26 +27,26 @@
 
 \begin{table*}[ht]
 \begin{center}
-\begin{tabular}{p{1cm} p{4.5cm} p{5cm} p{2cm}}
+\begin{tabular}{p{1cm} p{4.5cm} p{3.5cm} p{3.5cm}}
 \rowcolor{Ash}
 \hline
-Copia & Persona & Organizzazione & Data \\ \hline
-1 & Kevin Mansoldo & Azienda & Data \\ 
-2 & Matteo Dal Monte & Azienda & Data \\ 
-3 & Luca Vicentini & Azienda & Data \\ 
-4 & Claudio Tomazzoli & Cliente & Data \\ \hline
+Copia & Persona & Organizzazione & 30 Giugno 2015 \\ \hline
+1 & Kevin Mansoldo & Azienda & 30 Giugno 2015 \\ 
+2 & Matteo Dal Monte & Azienda & 30 Giugno 2015 \\ 
+3 & Luca Vicentini & Azienda & 30 Giugno 2015 \\ 
+4 & Claudio Tomazzoli & Cliente & 30 Giugno 2015 \\ \hline
 \end{tabular}
 \end{center}
 
 
 \begin{center}
-\begin{tabular}{p{6cm} p{5cm} p{2cm}}
+\begin{tabular}{p{6cm} p{3.5cm} p{3.5cm}}
 \rowcolor{Ash}
 \hline
 Azione & Persona & Data \\ \hline
-Documento redatto da & Kevin Mansoldo & Data \\ 
-Documento approvato da & Matteo Dal Monte & Data \\ 
-Documento approvato da & Luca Vicentini & Data \\ \hline
+Documento redatto da & Kevin Mansoldo & 30 Giugno 2015 \\ 
+Documento approvato da & Matteo Dal Monte & 30 Giugno 2015 \\ 
+Documento approvato da & Luca Vicentini & 30 Giugno 2015 \\ \hline
 \end{tabular}
 \end{center}
 \end{table*}
@@ -54,13 +54,13 @@ Documento approvato da & Luca Vicentini & Data \\ \hline
 \subsection{Versione Documento}
 \begin{table*}[ht]
 \begin{center}
-\begin{tabular}{p{1cm} p{4.5cm} p{5cm} p{2cm}}
+\begin{tabular}{p{1cm} p{3cm} p{5cm} p{3.5cm}}
 \rowcolor{Ash}
 \hline
 Versione & Autore & Note & Data \\ \hline
-1.0 & Kevin Mansoldo & Stesura Iniziale & Data \\ 
-1.1 & Kevin Mansoldo & Revisione su osservazioni del gruppo & Data \\ 
-1.2 & Kevin Mansoldo & Revisione Finale & Data \\ \hline
+1.0 & Kevin Mansoldo & Stesura Iniziale & 8 Giugno 2015 \\ 
+1.1 & Kevin Mansoldo & Revisione su osservazioni del gruppo & 17 Giugno 2015 \\ 
+1.2 & Kevin Mansoldo & Revisione Finale & 30 Giugno 2015 \\ \hline
 \end{tabular}
 \end{center}
 \end{table*}
@@ -115,8 +115,6 @@ Pianificazione dei test di ogni iterazione che include elenco attività, calenda
 \includegraphics[trim={0 0.5cm 0 0}, clip, scale=0.5]{test.png}
 \end{figure}
 
-
-
 \section{Tipologia Test}
 Divideremo i test in due grandi famiglie
 \begin{itemize}	
@@ -144,7 +142,6 @@ Divideremo i test in due grandi famiglie
 
 \subsection{White Box (test Strutturali)}
 \subsubsection{Unit Test}
-Test sul corretto funzionamento delle classi responsabili del controllo della velocità rispetto al limite impostato ed eventuale soglia di superamento di quest'ultimo.\\ \\
 \textbf{Tester:} Kevin Mansoldo\\
 \textbf{Data:} 1/9/2015\\
 \textbf{Tipo:} automatico\\
@@ -153,8 +150,6 @@ Test sul corretto funzionamento delle classi responsabili del controllo della ve
 \textbf{Applicazioni necessarie:} JUnit\\
 \textbf{Breve descrizione:} Test sul corretto funzionamento delle classi responsabili del controllo della velocità  rispetto al limite impostato ed eventuale soglia di superamento di quest'ultimo.\\ \\
 
-I test sono stati svolti con JUnit.\\ \\
-Package univr.is.tmc.test \\ \\
 Test effettuati:
 \begin{enumerate}
 \item RispettaLimite : controlla se la velocità è compresa nell'intervallo min\_limite e max\_limite.
@@ -178,8 +173,6 @@ Test effettuati:
 \pagebreak
 
 \subsubsection{Integration Test}
-
-Si è testata l'integrazione tra i vari componenti del sistema TMC: il simulatore SW (Modulo HW), la web application (pagine jsp), le Servlet e il DB.\\\\
 \textbf{Tester:} Matteo Dal Monte\\
 \textbf{Data:} 2/9/2015\\
 \textbf{Oggetto:} TrackMyCar\\
@@ -190,8 +183,6 @@ Si è testata l'integrazione tra i vari componenti del sistema TMC: il simulator
 \pagebreak
 
 \subsubsection{System Test}
-
-I test in questa sezione ci hanno permesso di controllare alcune proprietà del nostro sistema.\\ \\
 \textbf{Tester:} Kevin Mansoldo\\
 \textbf{Data:} 7/9/2015\\
 \textbf{Oggetto:} WebApp\\
